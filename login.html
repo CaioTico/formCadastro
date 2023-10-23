@@ -12,10 +12,10 @@
 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
-
-    <script src='login.js'></script>
-    <script src='cep.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='./_css/index.css'>
+    
+    <script src='./js/login.js'></script>
+    
 
 </head>
 
@@ -45,24 +45,26 @@
                 <h1>
                     ENDEREÇO
                 </h1>
-                <label for="cep">cep:</br></label>
-                <input type="cep" id="cep" name="cep"><br>
-                <label for="rua">rua:</br></label>
-                <input type="rua" id="rua" name="rua"><br>
-                <label for="numero">numero:</br></label>
-                <input type="numero" id="numero" name="numero"><br>
-                <label for="bairro">bairro:</br></label>
-                <input type="bairro" id="bairro" name="bairro"><br>
-                <label for="cidade">cidade:</br></label>
-                <input type="cidade" id="cidade" name="cidade"><br>
-                <label for="estado">estado:</br></label>
-                <input type="estado" id="estado" name="estado"><br>
+                <label for="inputCEP">cep:</br></label>
+                <input type="text" class="form-control" id="cep"><br>
+                <label for="rua">Rua</br></label>
+                <input type="text" class="form-control" id="rua" placeholder="Rua dos Bobos"><br>
+                <label for="inputAddress">N.º</br></label>
+                <input type="text" class="form-control" id="numero" placeholder="nº 0"><br>
+                <label for="inputAddress2">Bairro</br></label>
+                <input type="text" class="form-control" id="bairro" placeholder="Apartamento, hotel, casa, etc."><br>
+                <label for="cidade">Cidade</br></label>
+                <input type="text" class="form-control" id="cidade"><br>
+                <label for="estado">Estado</br></label>
+                <input type="text" class="form-control" id="estado"><br>
                 <label for="complemento">complemento</br></label>
-                <input type="complemento" id="complmento" name="complemento"><br>
+                <input type="text" class="form-control" id="complemento">
             </div>
-            <br><button class="glow-on-hover" onclick="Validar()">CADASTRAR</button>
+            <br><button id="glow-on-hover" onclick="">CADASTRAR</button>
         </form>
     </div>
+
+    <script type="text/javascript" src="./js/controller.js"></script>
 </body>
 
 </html>

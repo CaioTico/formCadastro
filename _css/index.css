@@ -151,6 +151,9 @@ h1 {
 #colunas{
     display: inline-block;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
+    
 }
 #colunass{
     display: inline-block;
