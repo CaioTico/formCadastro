@@ -154,6 +154,11 @@ h1 {
 }
 
 
-@media (max-width: 1090px) {
-    
+@media only screen and (max-width: 1090px) {
+    div, button{
+        margin-left: 50vw;
+        margin-right: 50vw;
+        align-items: center;
+        justify-content: center;
+    }
 }
