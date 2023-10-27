@@ -114,6 +114,6 @@ Lnk para colocar no `HTML`
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 ```
 ## Fontes Consultadas
-`GitHub`
-`Técnico de Informatica`
-`Stack Overflow`
+`GitHub`<br>
+`Técnico de Informatica`<br>
+`Stack Overflow`<br>
