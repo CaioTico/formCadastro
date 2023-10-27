@@ -76,12 +76,6 @@ function CPF(){
 
    var CPF = new CPF();
 //    document.write(CPF.valida("123.456.789-00"));
-   
-//    document.write("<br> Utilizando o proprio gerador da lib<br><br><br>");
-   for(var i =0;i<40;i++) {
-      var temp_cpf = CPF.gera();
-      document.write(temp_cpf+" = "+CPF.valida(temp_cpf)+"<br>");
-   }
 
 $("#input").keypress(function(){
     $("#resposta").html(CPF.valida($(this).val()));
